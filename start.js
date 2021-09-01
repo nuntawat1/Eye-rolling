@@ -11,6 +11,9 @@
             const radian = Math.atan2(pageX - eyeCenterX, pageY - eyeCenterY);
             const angle = radian * 180 / Math.PI * -1;
             eyeElem.style.transform = `rotate(${angle}deg)`;
+
+        });
+
     }
     function run() {
     }
